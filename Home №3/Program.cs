@@ -4,8 +4,8 @@ Console.Clear();
  int[] myArray = new int[8];
          Random rand = new Random();
             
-         for (int x = 0; x < myArray.Length; x++)
+         for (int i = 0; i < myArray.Length; i++)
             {
-                myArray[x] = rand.Next(100);
-                Console.WriteLine("Значение элемента массива " + x + " = " + myArray[x]);
+                myArray[i] = rand.Next(100);
+                Console.WriteLine("Значение элемента массива " + i + " = " + myArray[i]);
             }
